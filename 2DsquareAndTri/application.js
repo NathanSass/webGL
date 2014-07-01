@@ -6,6 +6,7 @@ var gl;
         gl.viewportWidth = canvas.width;
         gl.viewportHeight = canvas.height;
     } catch (e) {
+
     }
     if (!gl) {
         alert("Could not initialise WebGL, sorry :-(");
@@ -122,6 +123,7 @@ var gl;
     mat4.identity(mvMatrix);
 
     mat4.translate(mvMatrix, [-1.5, 0.0, -7.0]);
+    
     gl.bindBuffer(gl.ARRAY_BUFFER, triangleVertexPositionBuffer);
     gl.vertexAttribPointer(shaderProgram.vertexPositionAttribute, triangleVertexPositionBuffer.itemSize, gl.FLOAT, false, 0, 0);
     setMatrixUniforms();
