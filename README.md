@@ -12,6 +12,7 @@ I used to do a lot of 3D modeling. I'm going to give it a shot in the browser!
 
 ####2DsquareAndTri
 - DOM displays a static square and triangle.
+- Black and white shading
 
 ##### Other peoples webGL
 - This [stoichiometery](http://web.chemdoodle.com/demos/molgrabber-3d) example is awesome!
