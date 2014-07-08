@@ -10,10 +10,8 @@ I used to do a lot of 3D modeling. I'm going to give it a shot in the browser!
 - 3D graphics
 - html5 / css3
 
-####2DsquareAndTri
-- DOM displays a static square and triangle.
-- Black and white shading
+####[2DsquareAndTri](http://nathansass.github.io/webGL/2DsquareAndTri/)
+- Displays a static square and triangle.
 
-##### Other peoples webGL
-- This [stoichiometery](http://web.chemdoodle.com/demos/molgrabber-3d) example is awesome!
-
+####[basicColor](http://nathansass.github.io/webGL/basicColor/)
+- Displays a triangle with a gradient and a colored square.
