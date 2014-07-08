@@ -54,7 +54,7 @@ var gl;
 
   function initShaders() {
     var fragmentShader = getShader(gl, "shader-fs");
-    var vertexShader = getShader(gl, "shader-vs");
+    var vertexShader   = getShader(gl, "shader-vs");
 
     shaderProgram = gl.createProgram();
     gl.attachShader(shaderProgram, vertexShader);
@@ -94,7 +94,7 @@ var gl;
     var vertices = [
          0.0,  1.0,  0.0,
         -1.0, -1.0,  0.0,
-         1.0, -1.0,  0.0
+         1.0, -1.0,  0.0,
     ];
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
     triangleVertexPositionBuffer.itemSize = 3;
